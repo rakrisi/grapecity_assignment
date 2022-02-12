@@ -21,8 +21,8 @@ function calculateTip() {
     }
     var tip = bill * (service / 100.0)/ people;
     var tota = (bill / people) + tip;
-    document.getElementById("tip").innerHTML ="₹"+ tip.toFixed(2);
-    document.getElementById("total").innerHTML ="₹"+ tota.toFixed(2);
+    document.getElementById("tip").innerHTML ="$"+ tip.toFixed(2);
+    document.getElementById("total").innerHTML ="$"+ tota.toFixed(2);
 }
 function decreaseTip() {
     var tip = document.getElementById("tipValue").value;
