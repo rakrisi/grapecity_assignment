@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <h1>Tip Calculator</h1>
+        <div class="row">
+            <div class="column" id="c1">
+                <div class="heading1">Bill</div>
+                <div class="content">
+                    <input value="0.00" class="center" id="billValue" type="number" style="width: 100%;">
+                </div>
+
+
+                <div class="heading1">Tip (%)</div>
+                <div class="content">
+                    <button id="tipPlus">-</button>
+                    <input value="0" class="center" id="tipValue" type="number">
+                    <button id="tipMinus">+</button>
+                </div>
+
+                <div class="heading1">Number of people</div>
+                <div class="content">
+                    <button id="peoplePlus">-</button>
+                    <input value="1" class="center" id="peopleValue" type="number">
+                    <button id="peopleMinus">+</button>
+                </div>
+            </div>
+            <div class="column" id="c2">
+                <div class="heading2" id="text">Tip</div>
+                <div class="heading2" id="tip">₹0.00</div>
+                <div class="sub-line">per person</div>
+
+                <div class="heading2" id="text">Total</div>
+                <div class="heading2" id="total">₹0.00</div>
+                <div class="sub-line">per person</div>
+            </div>
+        </div>
+    </body>
+</html>

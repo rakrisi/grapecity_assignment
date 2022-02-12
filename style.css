@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    border-radius:10px;
+  }
+  body {
+    background-color: #6881a7;
+    height: 100vh;
+    margin:0;
+    padding: 8px;
+  }
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color:rgb(89, 72, 241);
+    margin:0 auto;
+    max-width: 700px;
+    text-align: center;
+    margin-top: 150px;  
+    margin-bottom: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.row {
+    background-color:rgb(172, 172, 172);
+    max-width: 800px;
+    display: flex;
+    margin: auto;
+}
+#c1 {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#c2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    border: 0.5px solid gray;
+    margin: auto;
+}
+.heading1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+button{
+    height: 27px;
+    border: none;
+    color: black;
+    font-size: larger;
+    width: 24px;
+}
+.heading2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+#text{
+    margin-top: 50px;
+    display: inline-block;
+}
+.sub-line{
+    color: #555;
+}
+.center{
+    text-align: center;
+    width: 180px;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    border: 3px solid rgb(255, 255, 255);
+}
+input[type=number]:focus {
+    outline: none;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: azure;
+}
+#billVal {
+    width: 230px;
+}
+.content {
+    border: 1px solid rgb(185, 184, 184);
+    width: 250px;
+    height: 40px;
+    padding: 4px;
+
+    margin: 10px 0px 25px 0px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+#tip, #total {
+    display: inline-block;
+    max-width: 270px;
+    float: right;
+    overflow: hidden;
+    margin-top:55px;
+}
